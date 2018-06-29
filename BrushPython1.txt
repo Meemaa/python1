@@ -1,0 +1,22 @@
+a = 1.5 + 0.5j
+print (a.real)
+print (type(a))
+c = 2.1
+print (c)
+print (type(c))
+print (7.*3)
+print (2**10)
+print (8%3)
+print (float (1))
+print (3/2.)
+test = (3>4)
+print (test)
+test2 = (4>3)
+print (test2)
+print (type(test))
+d = 3
+e = 2
+print (d/e) #in python 2 it is 1
+print (d/float(e)) #in python 3 the answer of 3/2 is 1.5 so treats it like a float
+print (3.0//2) #if you explicitly want integer division
+print (5%3) #gives the remainder
